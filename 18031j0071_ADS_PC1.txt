@@ -1,0 +1,106 @@
+ 
+Question 1:
+Ans: Nlogn
+
+
+Question 2:Playing Cricket-is-a hobby--of--mentor-deepak
+Ans:deepak
+step 1:push playing into the stack
+       playing
+step 2:push Cricket into the stack
+       Cricket
+       playing
+Step 3:pop Cricket to the stack
+       playing
+step 4:push is to stack
+      is
+      playing
+step 5:pop is from stack
+       playing
+step 6:push a to the stack
+      a 
+     playing
+step 7:push hobby to the stack
+      hobby 
+      a
+     playing
+step 8:pop a hobby from tack
+       playing
+step 9:push of to stack
+      of
+      playing
+step 10:pop of playing from stack
+step 11: push mentor to stack
+       mentor
+step 12:pop mentor
+step 13:push deepak to stack
+       deepak
+       
+       
+
+Question 3:
+a. 5 4 3 1 2 0 9 8 7 6---->False
+b. 0 9 8 7 6 5 4 3 2 1---->True
+c. 0 1 2 3 4 5 6 7 8 9---->True
+d. 1 3 5 7 9 2 4 6 8 0---->False
+e. 1 5 0 2 3 4 6 7 8 9---->False
+
+
+Question 4:
+3-4--->0 1 2 4 4 5 6 7 8 9
+4-9--->0 1 2 4 4 5 6 7 8 4
+8-0--->0 1 2 4 4 5 6 7 0 4
+2-3--->0 1 4 4 4 5 6 7 0 4
+5-6--->0 1 4 4 4 5 5 7 0 4
+5-9--->0 1 4 4 4 4 4 7 0 4
+7-3--->0 1 4 4 4 4 4 4 0 4
+4-8--->4 1 4 4 4 4 4 4 4 4
+6-1--->4 4 4 4 4 4 4 4 4 4
+
+No of components:
+
+
+
+Question 5:
+{[]()}
+push {-->1
+push [--->2
+pop  ]---->-2
+push (--->3
+pop  )--->-3
+pop  }--->-1
+stack is empty
+
+
+OR
+
+1st Iteration-->1
+2nd Iteration-->1
+3rd Iteration-->0
+
+Question 6:
+ANS:2log(n)
+
+Question 7:
+Ans:N
+
+Question 8:
+Ans:N
+
+Question 9:
+Ans:N^2
+
+
+Question 10:
+3-4--->0 1 2 4 4 5 6 7 8 9
+4-9--->0 1 2 4 4 5 6 7 8 4
+8-0--->0 1 2 4 4 5 6 7 0 4
+2-3--->0 1 4 4 4 5 6 7 0 4
+5-6--->0 1 4 4 4 5 5 7 0 4
+5-9--->0 1 4 4 4 4 4 7 0 4
+7-3--->0 1 4 4 4 4 4 4 0 4
+4-8--->4 1 4 4 4 4 4 4 4 4
+6-1--->4 4 4 4 4 4 4 4 4 4
+
+
+
