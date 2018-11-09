@@ -1,0 +1,53 @@
+Build a max heap with following elements(use the same insertion order) and answer the following questions 
+
+100,  20, 3, 101, 54, 96, 103, 71, 60
+
+1)Number of heapify operations  required to build a max heap.
+
+5
+
+2)  Leaf elements after performing 2nd heapify operation(Right to left).
+
+103,96.54,60,71
+
+3) Leaf elements after inserting all elements into max heap(First child to last child).
+
+20,60,54,96,103
+
+4) Elements at level 1 after building a heap. (Left to right)
+
+100,20,3,101,54,96,103,71,60
+
+5) Children of 101 after building a heap.(Left to right)
+
+71,54
+
+6)  Elements at level 1 after sorting 3 elements. (Left to right)
+
+101,54,96,103,71,60
+	
+Activity-5:
+Draw all of the different heaps that can be made from the five keys A B C D E
+
+A B C D E
+A B E C D
+A B E D C
+A B C E D
+A C B C D
+A C B D E
+A B D C E
+A B D E C
+E D C B A
+E C D B A
+E C D A B
+E D B A C
+E D B C A
+E D C A B 
+E D A B C
+E D A C B
+
+Draw all of the different heaps that can be made from the five keys A A A B B.
+Ans:
+A A A B B
+A A B A B
+A A B B A
